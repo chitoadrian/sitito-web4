@@ -1,0 +1,16 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #111827;
+    color: #f3f4f6;
+    scroll-behavior: smooth;
+}
+
+/* Menú móvil */
+.mobile-menu {
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(-100%);
+}
+
+.mobile-menu.active {
+    transform: translateY(0);
+}
